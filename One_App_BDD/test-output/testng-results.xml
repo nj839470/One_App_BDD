@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T20:13:27 IST" name="Suite" finished-at="2024-07-25T20:24:52 IST" duration-ms="685060">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runtest@7b84fcf8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-25T20:13:27 IST" name="login" finished-at="2024-07-25T20:24:52 IST" duration-ms="685060">
+      <class name="Runner.runtest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.runtest@7b84fcf8]" started-at="2024-07-25T20:13:27 IST" name="setUpClass" finished-at="2024-07-25T20:13:28 IST" duration-ms="416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@773c0293]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runtest@7b84fcf8]" started-at="2024-07-25T20:13:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-25T20:24:52 IST" duration-ms="684253" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Login with Invalid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e21d2080-4b11-434d-a6bf-dff216b60e5d, findElement {using=xpath, value=//android.widget.Button[@resource-id ='com.android.permissioncontroller:id/permission_allow_button']}]
+Capabilities {appium:app: /opt/raid-data/data/userV2/..., appium:appActivity: com.customerapp.hero.views...., appium:appPackage: com.customerapp.hero, appium:automationName: uiautomator2, appium:chromedriverPort: 30032, appium:databaseEnabled: false, appium:desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: uiautomator2, chromedriverPort: 30032, deviceName: 822, launchTimeout: 90000, newCommandTimeout: 600, pcloudy:options: {appiumVersion: 2.0.0, pCloudy_ApiKey: gb2hycp3rd35mt73jy4vc85f, pCloudy_DeviceManufacturer: SAMSUNG, pCloudy_DeviceVersion: 13.0.0, pCloudy_DurationInMinutes: 120, pCloudy_EnableDeviceLogs: true, pCloudy_EnablePerformanceData: true, pCloudy_EnableVideo: true, pCloudy_Username: anil1.singh@heromotocorp.com, pCloudy_WildNet: false}, platformName: ANDROID, platformVersion: 12.0.0, systemPort: 30034, udid: RZCW70FA9VD}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E146B, appium:deviceName: RZCW70FA9VD, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZCW70FA9VD, appium:javascriptEnabled: true, appium:launchTimeout: 90000, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:pixelRatio: 2.8125, appium:platformVersion: 13, appium:statBarHeight: 64, appium:systemPort: 30034, appium:takesScreenshot: true, appium:udid: RZCW70FA9VD, appium:viewportRect: {height: 2144, left: 0, top: 64, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, pcloudy:options: {appiumVersion: 2.0.0, pCloudy_ApiKey: gb2hycp3rd35mt73jy4vc85f, pCloudy_DeviceManufacturer: SAMSUNG, pCloudy_DeviceVersion: 13.0.0, pCloudy_DurationInMinutes: 120, pCloudy_EnableDeviceLogs: true, pCloudy_EnablePerformanceData: true, pCloudy_EnableVideo: true, pCloudy_Username: anil1.singh@heromotocorp.com, pCloudy_WildNet: false}, platformName: ANDROID}
+Session ID: e21d2080-4b11-434d-a6bf-dff216b60e5d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e21d2080-4b11-434d-a6bf-dff216b60e5d, findElement {using=xpath, value=//android.widget.Button[@resource-id ='com.android.permissioncontroller:id/permission_allow_button']}]
+Capabilities {appium:app: /opt/raid-data/data/userV2/..., appium:appActivity: com.customerapp.hero.views...., appium:appPackage: com.customerapp.hero, appium:automationName: uiautomator2, appium:chromedriverPort: 30032, appium:databaseEnabled: false, appium:desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: uiautomator2, chromedriverPort: 30032, deviceName: 822, launchTimeout: 90000, newCommandTimeout: 600, pcloudy:options: {appiumVersion: 2.0.0, pCloudy_ApiKey: gb2hycp3rd35mt73jy4vc85f, pCloudy_DeviceManufacturer: SAMSUNG, pCloudy_DeviceVersion: 13.0.0, pCloudy_DurationInMinutes: 120, pCloudy_EnableDeviceLogs: true, pCloudy_EnablePerformanceData: true, pCloudy_EnableVideo: true, pCloudy_Username: anil1.singh@heromotocorp.com, pCloudy_WildNet: false}, platformName: ANDROID, platformVersion: 12.0.0, systemPort: 30034, udid: RZCW70FA9VD}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E146B, appium:deviceName: RZCW70FA9VD, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZCW70FA9VD, appium:javascriptEnabled: true, appium:launchTimeout: 90000, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:pixelRatio: 2.8125, appium:platformVersion: 13, appium:statBarHeight: 64, appium:systemPort: 30034, appium:takesScreenshot: true, appium:udid: RZCW70FA9VD, appium:viewportRect: {height: 2144, left: 0, top: 64, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, pcloudy:options: {appiumVersion: 2.0.0, pCloudy_ApiKey: gb2hycp3rd35mt73jy4vc85f, pCloudy_DeviceManufacturer: SAMSUNG, pCloudy_DeviceVersion: 13.0.0, pCloudy_DurationInMinutes: 120, pCloudy_EnableDeviceLogs: true, pCloudy_EnablePerformanceData: true, pCloudy_EnableVideo: true, pCloudy_Username: anil1.singh@heromotocorp.com, pCloudy_WildNet: false}, platformName: ANDROID}
+Session ID: e21d2080-4b11-434d-a6bf-dff216b60e5d
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at io.appium.java_client.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:88)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source)
+at Step_Defination.Login_Steps.give_allow_all_rquire_access(Login_Steps.java:30)
+at ✽.Give allow all rquire access(file:///C:/Users/Welcome/eclipse-workspace/One_App_BDD/./Features/Login.feature:5)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+at io.appium.java_client.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:88)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source)
+at Step_Defination.Login_Steps.give_allow_all_rquire_access(Login_Steps.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runtest@7b84fcf8]" started-at="2024-07-25T20:13:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-25T20:13:28 IST" duration-ms="156" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify update number and Continue as gest Functionality."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Page_object_Locator.Login_Page.continue_button()" because "this.ob" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Page_object_Locator.Login_Page.continue_button()" because "this.ob" is null
+at Step_Defination.Login_Steps.Tap_Coninue_button_enter_after_unregistered_mobile_number(Login_Steps.java:60)
+at ✽.Tap Coninue button enter after unregistered mobile number(file:///C:/Users/Welcome/eclipse-workspace/One_App_BDD/./Features/Login.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.runtest@7b84fcf8]" started-at="2024-07-25T20:24:52 IST" name="tearDownClass" finished-at="2024-07-25T20:24:52 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.runtest -->
+    </test> <!-- login -->
+  </suite> <!-- Suite -->
+</testng-results>
